@@ -196,21 +196,10 @@ div#graph
   padding: 75px 0 0 300px;
 }
 
-div#graph2
-{
-  width: 12%;
-  position: absolute;
-  padding: 3px 0 0 0;
-  top: 15%;
-  left: 81%;
-  background-color: white;
-  text-align: center;
-}
-
 #profileFeatures{
     font-size: 14px;
     text-align: left;
-    text-align: left;
+    /*background-color: red;*/
 }
 
 #nomedocara{
@@ -257,15 +246,15 @@ div#profileVideos
 div#profileSelo
 {
   position: absolute;
-  top: 40%;
-  left: 15%;
+  top: 2%;
+  left: 10%;
 }
 
 div#profileBau
 {
   position: absolute;
-  top: 40%;
-  right: 15%;
+  top: 2%;
+  right: 10%;
 }
 
 #botaofaztudo{
@@ -279,4 +268,27 @@ div#profileBau
     position: absolute;
     top: 290px;
     left: 160px;
+}
+
+#titeredondo{
+    width: 80px;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 55%;
+    left: 130px;
+    top: 5px;
+}
+
+#square{
+    position: absolute;
+    width: 285px;
+    height: 320px;
+    border: 2px solid black;
+    bottom: 30px;
+    left: 33px;
+}
+
+.figurinha{
+    width: 70px;
+    border-radius: 15px;
 }
