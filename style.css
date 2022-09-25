@@ -112,10 +112,22 @@
 p#sportName
 {
   top: 535px;
-    position: absolute;
-    font-weight: bold;
+  position: absolute;
+  font-weight: bold;
   text-align: center;
   background-color: #ffdd00;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+p#sportName2
+{
+  top: 535px;
+  position: absolute;
+  font-weight: bold;
+  text-align: center;
+  background-color: lightgray;
   width: 100%;
   margin: auto;
   border-radius: 10px;
@@ -133,10 +145,22 @@ p#average
     background-color: #000000;
 }
 
+p#average2
+{
+    color: lightgray;
+  top: 300px;
+    position: absolute;
+  text-align: center;
+  width: 18%;
+  border-radius: 10px;
+    font-size: 35px;
+    background-color: #000000;
+}
+
 p#makeit
 {
   text-align: center;
-  color: #ffdd00;
+  color: lightgray;
   background-color: black;
   position: absolute;
   top: 430px;
@@ -194,6 +218,16 @@ div#paldia
     border: 2px solid black;
 }
 
+#nome_de_user2{
+  background-color: lightgray;
+  width: 40%;
+  position: absolute;
+  top: 18px;
+  left: 155px;
+    border-radius: 10px;
+  border: 1px solid black;
+}
+
 #descricao{
     background-color: #ffdd00;
     font-size: 14px;
@@ -203,7 +237,17 @@ div#paldia
     padding: 2px;
     text-align: justify;
     border-radius: 10px;
+}
 
+#descricao2{
+  background-color: lightgray;
+  font-size: 14px;
+  position: absolute;
+  /*height: 18%;*/
+  width: 100%;
+  padding: 2px;
+  text-align: justify;
+  border-radius: 10px;
 }
 
 div#graph
