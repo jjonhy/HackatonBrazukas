@@ -60,10 +60,10 @@ section
     text-align: center;
     top: 575px;
     position: absolute;
-    justify-content: center;
   }
 
   .button
   {
     width: 60px;
+    padding: 2px 13px 2px 13px;
   }
