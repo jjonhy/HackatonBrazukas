@@ -20,8 +20,8 @@ function VolOptions()
 {
     var volBet = document.getElementById('volbet')
     var newVolBet = '<p id="volbet">VOLEI <input type="button" value="⬇️" onclick="VolOptionsBack()"></p>'
-    newVolBet += '<span id="opvol11" style="width: 20%; border: 2px solid black; padding: 5px" onclick="VolOption11()">Brasil</span> x <span id="opvol21" style="width: 20%; border: 2px solid black; padding: 5px" onclick="VolOption21()">Argentina</span>'
-    newVolBet += '<br><br><span id="opvol12" style="width: 20%; border: 2px solid black; padding: 5px" onclick="VolOption12()">EUA</span> x <span id="opvol22" style="width: 20%; border: 2px solid black; padding: 5px" onclick="VolOption22()">Polônia</span>'
+    newVolBet += '<span id="opvol11" style="width: 20%; padding: 5px;   border-radius: 5px;    background-color: white;\n\n" onclick="VolOption11()">Brasil</span> x <span id="opvol21" style="width: 20%; border: 2px solid black; padding: 5px" onclick="VolOption21()">Argentina</span>'
+    newVolBet += '<br><br><span id="opvol12" style="width: 20%; padding: 5px; border-radius: 5px; background-color: white;" onclick="VolOption12()">EUA</span> x <span id="opvol22" style="width: 20%; border: 2px solid black; padding: 5px" onclick="VolOption22()">Polônia</span>'
 
     volBet.innerHTML = newVolBet
 }
