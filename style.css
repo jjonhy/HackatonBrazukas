@@ -215,56 +215,57 @@ div#graph
   left: 81%;
 }
 
-div#graph2
-{
-  width: 12%;
-  position: absolute;
-  padding: 3px 0 0 0;
-  top: 15%;
-  left: 81%;
-  background-color: white;
-  text-align: center;
-}
-
 #profileFeatures{
     font-size: 14px;
     text-align: left;
-    text-align: left;
+    /*background-color: red;*/
 }
 
 #nomedocara{
-    border: 2px solid black;
+    /*border: 2px solid black;*/
   padding: 10px 10px 10px 10px;
   position: absolute;
   top: 18%;
     width: 32%;
   left: 9%;
+    border-radius: 15px;
+    background-color: lightgray;
 }
 
 div#profileDescription
 {
-  border: 2px solid black;
+        background-color: lightgray;
+
+  /*border: 2px solid black;*/
   padding: 10px 10px 10px 10px;
   position: absolute;
   top: 26%;
     width: 32%;
   left: 9%;
+        border-radius: 15px;
+
 }
 
 div#profileChallenges
 {
-  border: 2px solid black;
+        background-color: lightgray;
+
+  /*border: 2px solid black;*/
   padding: 10px 10px 10px 10px;
   position: absolute;
   top: 18%;
         width: 32%;
+    border-radius: 15px;
 
   left: 50%;
 }
 
 div#profileVideos
 {
-  border: 2px solid black;
+        background-color: lightgray;
+
+        border-radius: 15px;
+  /*border: 2px solid black;*/
   padding: 10px 10px 10px 10px;
   position: absolute;
   top: 26%;
@@ -276,15 +277,18 @@ div#profileVideos
 div#profileSelo
 {
   position: absolute;
-  top: 40%;
-  left: 15%;
+  top: 2%;
+  left: 10%;
 }
 
 div#profileBau
 {
+    background-color: #00e4ff;
+    border-radius: 60px;
+    width: 85px;
   position: absolute;
-  top: 40%;
-  right: 15%;
+  top: 2%;
+  right: 10%;
 }
 
 #botaofaztudo{
@@ -298,4 +302,59 @@ div#profileBau
     position: absolute;
     top: 290px;
     left: 160px;
+}
+
+#titeredondo{
+    width: 80px;
+    position: absolute;
+    /*border: 2px solid black;*/
+    border-radius: 55%;
+    left: 145px;
+    top: 5px;
+}
+
+#square{
+        background-color: lightgray;
+
+    position: absolute;
+    width: 285px;
+    height: 320px;
+    /*border: 2px solid black;*/
+    border-radius: 40px;
+    bottom: 30px;
+    left: 33px;
+}
+
+.figurinha{
+    width: 70px;
+    height: 90px;
+    border-radius: 15px;
+    position: absolute;
+    /*border: 2px solid black;*/
+}
+
+#pele{
+    top: 95px;
+    left: 20px;
+}
+
+#gibaa{
+    top: 95px;
+    left: 110px;
+}
+#airton{
+    top: 95px;
+    left: 200px;
+}
+#guga{
+    top: 195px;
+    left: 110px;
+}
+#cesar{
+    top: 195px;
+    left: 200px;
+}
+#neymar{
+    top: 195px;
+    left: 20px;
 }
