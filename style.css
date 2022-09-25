@@ -55,4 +55,15 @@ section
     background: white;
   }
 
-  
+  .buttons
+  {
+    text-align: center;
+    top: 575px;
+    position: absolute;
+    justify-content: center;
+  }
+
+  .button
+  {
+    width: 60px;
+  }
