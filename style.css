@@ -196,6 +196,17 @@ div#graph
   padding: 75px 0 0 300px;
 }
 
+div#graph2
+{
+  width: 12%;
+  position: absolute;
+  padding: 3px 0 0 0;
+  top: 15%;
+  left: 81%;
+  background-color: white;
+  text-align: center;
+}
+
 #profileFeatures{
     font-size: 14px;
     text-align: left;
