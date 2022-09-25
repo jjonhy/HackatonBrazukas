@@ -127,7 +127,7 @@ p#sportName2
   position: absolute;
   font-weight: bold;
   text-align: center;
-  background-color: lightgray;
+  background-color: rgb(211, 211, 211);
   width: 100%;
   margin: auto;
   border-radius: 10px;
@@ -154,20 +154,22 @@ p#average2
   width: 18%;
   border-radius: 10px;
     font-size: 35px;
+    left: 5px;
     background-color: #000000;
 }
 
 p#makeit
 {
   text-align: center;
-  color: lightgray;
-  background-color: black;
+  color: #000000;
+  background-color: #ffdd00;
   position: absolute;
   top: 430px;
   border-radius: 10px;
-  width: 100px;
-  height: 30px;
+  width: 65px;
+  height: 55px;
   display: flex;
+    left: 5px;
   align-items: center;
   justify-content: center;
 }
