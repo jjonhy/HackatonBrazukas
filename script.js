@@ -1,14 +1,9 @@
-function Stats()
-{
-
-}
-
 function FutOptions()
 {
     var futBet = document.getElementById('futbet')
-    var newFutBet = '<p id="futbet">Futebol <input type="button" value=">" onclick="FutOptionsBack()"></p>'
-    newFutBet += '<span id="opfut11" style="width: 20%; border: 2px solid black;" onclick="FutOption11()">Brasil</span> x <span id="opfut21" style="width: 20%; border: 2px solid black;" onclick="FutOption21()">Sérvia</span>'
-    newFutBet += '<br><br><span id="opfut12" style="width: 20%; border: 2px solid black;" onclick="FutOption12()">Camarões</span> x <span id="opfut22" style="width: 20%; border: 2px solid black;" onclick="FutOption22()">Suíça</span>'
+    var newFutBet = '<p id="futbet">FUTEBOL <input type="button" value="⬇️" onclick="FutOptionsBack()"></p>'
+    newFutBet += '<span id="opfut11" style="width: 20%; border: 2px solid black; padding: 5px" onclick="FutOption11()">Brasil</span> x <span id="opfut21" style="width: 20%; border: 2px solid black; padding: 5px" onclick="FutOption21()">Sérvia</span>'
+    newFutBet += '<br><br><span id="opfut12" style="width: 20%; border: 2px solid black; padding: 5px" onclick="FutOption12()">Camarões</span> x <span id="opfut22" style="width: 20%; border: 2px solid black; padding: 5px" onclick="FutOption22()">Suíça</span>'
 
     futBet.innerHTML = newFutBet
 }
@@ -16,7 +11,7 @@ function FutOptions()
 function FutOptionsBack()
 {
     var futBet = document.getElementById('futbet')
-    var newFutBet = '<p id="futbet">Futebol <input type="button" value=">" onclick="FutOptions()"></p>'
+    var newFutBet = '<p id="futbet">FUTEBOL <input type="button" value="⬇️" onclick="FutOptions()"></p>'
 
     futBet.innerHTML = newFutBet
 }
@@ -24,9 +19,9 @@ function FutOptionsBack()
 function VolOptions()
 {
     var volBet = document.getElementById('volbet')
-    var newVolBet = '<p id="volbet">Volei <input type="button" value=">" onclick="VolOptionsBack()"></p>'
-    newVolBet += '<span id="opvol11" style="width: 20%; border: 2px solid black;" onclick="VolOption11()">Brasil</span> x <span id="opvol21" style="width: 20%; border: 2px solid black;" onclick="VolOption21()">Argentina</span>'
-    newVolBet += '<br><br><span id="opvol12" style="width: 20%; border: 2px solid black;" onclick="VolOption12()">EUA</span> x <span id="opvol22" style="width: 20%; border: 2px solid black;" onclick="VolOption22()">Polônia</span>'
+    var newVolBet = '<p id="volbet">VOLEI <input type="button" value="⬇️" onclick="VolOptionsBack()"></p>'
+    newVolBet += '<span id="opvol11" style="width: 20%; border: 2px solid black; padding: 5px" onclick="VolOption11()">Brasil</span> x <span id="opvol21" style="width: 20%; border: 2px solid black; padding: 5px" onclick="VolOption21()">Argentina</span>'
+    newVolBet += '<br><br><span id="opvol12" style="width: 20%; border: 2px solid black; padding: 5px" onclick="VolOption12()">EUA</span> x <span id="opvol22" style="width: 20%; border: 2px solid black; padding: 5px" onclick="VolOption22()">Polônia</span>'
 
     volBet.innerHTML = newVolBet
 }
@@ -34,7 +29,7 @@ function VolOptions()
 function VolOptionsBack()
 {
     var volBet = document.getElementById('volbet')
-    var newVolBet = '<p id="volbet">Volei <input type="button" value=">" onclick="VolOptions()"></p>'
+    var newVolBet = '<p id="volbet">VOLEI <input type="button" value="⬇️" onclick="VolOptions()"></p>'
 
     volBet.innerHTML = newVolBet
 }
@@ -42,8 +37,8 @@ function VolOptionsBack()
 function XadOptions()
 {
     var xadBet = document.getElementById('xadbet')
-    var newXadBet = '<p id="xadbet">Xadrez <input type="button" value=">" onclick="XadOptionsBack()"></p>'
-    newXadBet += '<span id="opxad1" style="width: 20%; border: 2px solid black;" onclick="XadOption1()">Magnus</span> x <span id="opxad2" style="width: 20%; border: 2px solid black;" onclick="XadOption2()">Nakamura</span>'
+    var newXadBet = '<p id="xadbet">XADREZ <input type="button" value="⬇️" onclick="XadOptionsBack()"></p>'
+    newXadBet += '<span id="opxad1" style="width: 20%; border: 2px solid black; padding: 5px" onclick="XadOption1()">Magnus</span> x <span id="opxad2" style="width: 20%; border: 2px solid black; padding: 5px" onclick="XadOption2()">Nakamura</span>'
 
     xadBet.innerHTML = newXadBet
 }
@@ -51,7 +46,7 @@ function XadOptions()
 function XadOptionsBack()
 {
     var xadBet = document.getElementById('xadbet')
-    var newXadBet = '<p id="xadbet">Xadrez <input type="button" value=">" onclick="XadOptions()"></p>'
+    var newXadBet = '<p id="xadbet">XADREZ <input type="button" value="⬇️" onclick="XadOptions()"></p>'
 
     xadBet.innerHTML = newXadBet
 }

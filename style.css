@@ -133,6 +133,21 @@ p#average
     background-color: #000000;
 }
 
+p#makeit
+{
+  text-align: center;
+  color: #ffdd00;
+  background-color: black;
+  position: absolute;
+  top: 430px;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .video{
     position: absolute;
     width: 100%;
@@ -143,6 +158,7 @@ p#average
 div#bets
 {
   padding: 100px 1px 1px 70px;
+    ;
 }
 
 #ronaldinho{
@@ -180,14 +196,29 @@ div#graph
   padding: 75px 0 0 300px;
 }
 
+#profileFeatures{
+    font-size: 14px;
+    text-align: left;
+    text-align: left;
+}
+
+#nomedocara{
+    border: 2px solid black;
+  padding: 10px 10px 10px 10px;
+  position: absolute;
+  top: 18%;
+    width: 32%;
+  left: 9%;
+}
+
 div#profileDescription
 {
   border: 2px solid black;
   padding: 10px 10px 10px 10px;
   position: absolute;
-  top: 25%;
-  left: 18%;
-  text-align: center;
+  top: 26%;
+    width: 32%;
+  left: 9%;
 }
 
 div#profileChallenges
@@ -195,9 +226,10 @@ div#profileChallenges
   border: 2px solid black;
   padding: 10px 10px 10px 10px;
   position: absolute;
-  top: 37%;
-  left: 29%;
-  text-align: center;
+  top: 18%;
+        width: 32%;
+
+  left: 50%;
 }
 
 div#profileVideos
@@ -205,22 +237,23 @@ div#profileVideos
   border: 2px solid black;
   padding: 10px 10px 10px 10px;
   position: absolute;
-  top: 49%;
-  left: 27%;
-  text-align: center;
+  top: 26%;
+        width: 32%;
+
+  left: 50%;
 }
 
 div#profileSelo
 {
   position: absolute;
-  top: 65%;
+  top: 40%;
   left: 15%;
 }
 
 div#profileBau
 {
   position: absolute;
-  top: 65%;
+  top: 40%;
   right: 15%;
 }
 
